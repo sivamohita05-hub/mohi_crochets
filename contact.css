@@ -1,0 +1,74 @@
+body{
+font-family: Castellar;
+color:white;
+text-align:center;
+font-size:18px;
+background: linear-gradient(
+90deg,
+#03071e,
+#370617,
+#6a040f,
+#9d0208,
+#d00000,
+#dc2f02,
+#e85d04,
+#f48c06,
+#faa307,
+#ffba08
+);
+}
+
+h1{
+color:#ffba08;
+margin-top:40px;
+font-family: Castellar;
+}
+
+p, input, textarea{
+font-family: Arial;
+}
+
+.desc{
+color:#faa307;
+}
+
+.contact-box{
+background-color:#370617;
+width:400px;
+margin:auto;
+padding:30px;
+border-radius:10px;
+margin-top:30px;
+}
+
+input, textarea{
+width:90%;
+padding:10px;
+border:none;
+border-radius:5px;
+margin-top:5px;
+}
+
+input[type="submit"]{
+background-color:#ffba08;
+color:white;
+cursor:pointer;
+font-weight:bold;
+}
+
+input[type="submit"]:hover{
+background-color:#e85d04;
+}
+
+.contact-info{
+margin-top:40px;
+color:#f48c06;
+}
+
+.email-label{
+    text-transform: uppercase;
+}
+
+.email-id{
+    text-transform: lowercase;
+}
