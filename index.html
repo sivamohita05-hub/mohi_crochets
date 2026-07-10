@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Mohi Crochets</title>
+
+<style>
+
+/* Background Gradient using palette */
+body{
+font-family: Arial, sans-serif;
+margin:0;
+text-align:center;
+
+background: linear-gradient(
+135deg,
+#f72585,
+#b5179e,
+#7209b7,
+#560bad,
+#480ca8,
+#3f37c9,
+#4361ee,
+#4895ef,
+#4cc9f0
+);
+
+color:white;
+}
+
+/* Header */
+header{
+padding:25px;
+background: rgba(0,0,0,0.3);
+}
+
+/* Logo */
+img{
+border-radius:50%;
+border:4px solid #4cc9f0;
+width:250px;
+height:auto;
+}
+
+/* Website title */
+h1{
+font-size:40px;
+letter-spacing:2px;
+font-style: italic;
+font-family: "Georgia", serif;
+}
+
+/* Description */
+p{
+width:70%;
+margin:auto;
+font-size:18px;
+line-height:1.6;
+}
+
+/* Navigation */
+nav{
+margin-top:30px;
+}
+
+/* Buttons */
+nav a{
+display:inline-block;
+text-decoration:none;
+color:white;
+background:#4361ee;
+padding:12px 25px;
+margin:10px;
+border-radius:30px;
+font-size:18px;
+transition:0.4s;
+}
+
+/* Hover animation */
+nav a:hover{
+background:#f72585;
+transform:scale(1.1);
+box-shadow:0 0 15px #4cc9f0;
+}
+
+/* Section box */
+.container{
+background:rgba(255,255,255,0.1);
+margin:40px auto;
+padding:25px;
+width:80%;
+border-radius:15px;
+backdrop-filter: blur(6px);
+}
+
+/* Footer */
+footer{
+margin-top:40px;
+padding:15px;
+background:#3a0ca3;
+}
+
+</style>
+
+<script>
+
+/* Welcome message */
+function welcome(){
+alert("Welcome to Mohi Crochets 🧶 Explore beautiful handmade crochet creations!");
+}
+
+/* Navigation click effect */
+function openPage(page){
+alert("Opening " + page + " page");
+}
+
+</script>
+
+</head>
+
+<body onload="welcome()">
+
+<header>
+
+<img src="logo.png" width="120">
+
+<h1>Mohi Crochets</h1>
+
+</header>
+
+<div class="container">
+
+<p>
+Welcome to Mohi Crochets! This website is dedicated to the beautiful art of crochet.
+Here you can explore more handmade crochet products such as bags, flowers, toys,
+and decorative items. Mohi Crochets celebrates creativity and craftsmanship
+by sharing unique crochet designs and ideas for crochet lovers. Enjoy by exploring more!
+</p>
+
+<hr>
+
+<h2>Explore Our Website</h2>
+
+<nav>
+
+<a href="Gallery.html" onclick="openPage('Gallery')">Gallery</a>
+
+<a href="contact.html" onclick="openPage('Contact')">Contact Us</a>
+
+</nav>
+
+</div>
+
+<footer>
+
+© 2026 Mohi Crochets | Handmade with Love 🧶
+
+</footer>
+
+</body>
+</html>
